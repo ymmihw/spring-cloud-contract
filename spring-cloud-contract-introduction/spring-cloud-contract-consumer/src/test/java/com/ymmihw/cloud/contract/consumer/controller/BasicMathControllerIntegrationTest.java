@@ -23,10 +23,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
     ids = "com.ymmihw.spring.cloud.contract:spring-cloud-contract-producer:+:stubs:8090")
 public class BasicMathControllerIntegrationTest {
 
-  public BasicMathControllerIntegrationTest() {
-    System.setProperty("maven.repo.local", "D:\\LocalRepository");
-  }
-
   @Autowired
   private MockMvc mockMvc;
 
