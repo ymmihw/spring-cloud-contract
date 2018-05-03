@@ -1,13 +1,13 @@
-<?xml version="1.0"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
  <modelVersion>4.0.0</modelVersion>
  <parent>
-  <groupId>com.ymmihw.cloud</groupId>
+  <groupId>com.ymmihw.spring.cloud</groupId>
   <artifactId>spring-cloud-contract</artifactId>
   <version>0.0.1-SNAPSHOT</version>
  </parent>
- <groupId>com.ymmihw.cloud.contract</groupId>
+ <groupId>com.ymmihw.spring.cloud.contract</groupId>
  <artifactId>spring-cloud-contract-introduction</artifactId>
  <packaging>pom</packaging>
  <version>0.0.1-SNAPSHOT</version>
@@ -20,5 +20,6 @@
  </dependencies>
  <modules>
   <module>spring-cloud-contract-producer</module>
+  <module>spring-cloud-contract-consumer</module>
  </modules>
 </project>
